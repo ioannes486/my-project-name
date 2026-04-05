@@ -1,0 +1,129 @@
+# 스타방문요양센터 Website PRD
+
+## 1. Overview
+
+obove all, the language of this Website must be Koaren. This document defines the product requirements for the official website of **스타방문요양센터**. The main goal of the website is to help family members and caregivers quickly understand the center’s credibility, services, and care process, and then encourage them to contact the center for consultation.
+
+## 2. Project Goals
+
+The primary goal of the website is to increase consultation inquiries. The secondary goal is to communicate the center’s professionalism and trustworthiness. The tertiary goal is to support long-term organic traffic and return visits through notices, updates, and activity-based content.
+
+## 3. Target Users
+
+The primary users are adult children and family caregivers of elderly people who may need visiting care services. These users want to quickly confirm the center’s location, service coverage, care process, consultation availability, and overall trustworthiness.
+
+## 4. Product Role
+
+This website is not simply a promotional brochure. It is a consultation-driven information platform designed to help visitors understand the service at a glance and connect to the center immediately through phone calls or inquiry forms.
+
+## 5. Main Page Structure
+
+First. we will build the main page. The main page will follow a **one-screen, one-section** structure. A total of **seven sections** is recommended, as this allows the website to present information in a clear sequence without overwhelming users.
+
+### Section 1. Hero
+
+The first screen should include the center name, a core slogan, a representative image or emotional visual, a consultation phone number, and a primary inquiry button. The purpose of this section is to make visitors understand what the center is within the first few seconds.
+
+### Section 2. Service Introduction
+
+This section explains the core services provided through visiting care. Examples include daily living support, physical assistance, emotional support, and reduction of caregiver burden. The content should be written in plain, family-friendly language rather than policy-heavy terminology.
+
+### Section 3. Eligibility / Who We Serve
+
+This section explains who the service is for. It should help visitors quickly determine whether their family situation may qualify by using scenario-based explanations rather than only formal eligibility language.
+
+### Section 4. Care Process
+
+This section presents the step-by-step journey from long-term care application to service start. Its purpose is to reduce the perception that the process is complicated and lower the barrier to consultation.
+
+### Section 5. Trust Elements
+
+This section introduces the center’s care philosophy, service management approach, operating principles, and standards of care. It is critical for building confidence that the center is reliable and professional.
+
+### Section 6. Consultation CTA
+
+This section should include the main phone number, KakaoTalk consultation link, inquiry form entry point, and consultation hours. It should provide the clearest and strongest call to action so users can act immediately.
+
+### Section 7. Location or News
+
+The final section should either include address, map, service area, and visit information, or display recent news and updates. This section helps reinforce local trust and supports future revisit behavior.
+
+## 6. Required Content
+
+### Common Required Information
+
+The business name, main contact number, address, service area, business hours, and consultation hours are mandatory. Because this is a visiting care service, unclear or missing basic information may increase user drop-off. This information should also appear as shared footer content across all pages.
+
+### Service-Related Information
+
+The site should provide a structured explanation of service categories, eligibility conditions, service scope, and care process. The wording should prioritize clarity for family members and caregivers rather than institutional or policy-centered language.
+
+### Trust-Related Information
+
+The site should include the center introduction, care philosophy, activity photos, notices, and FAQ content. Users often judge trust based on whether the center feels operationally real and transparent. Each major section should also be accessible through a header-based navigation bar.
+
+## 7. Functional Requirements
+
+### Consultation Features
+
+The website must support click-to-call functionality, an inquiry form, and a KakaoTalk consultation link. These actions must be easy to access on mobile devices, and the overall consultation barrier should be as low as possible.
+
+### Information Delivery Features
+
+Visitors should be able to move through service information and care process content naturally through the main page scroll experience. Each section should communicate one primary message at a time.
+
+### Content Management Features
+
+The website should be structured so that notices, updates, photos, and FAQ entries can be added later without difficulty. Frequently updated content should be easy for the operator to manage.
+
+## 8. Design Direction
+
+The design should emphasize trust, stability, and clarity. Readability, structured layout, whitespace, calm colors, and strong typography are more important than decorative or flashy visual effects.
+
+The main page will use a full-page scroll structure, but each section must remain low-density and easy to understand. Since the service belongs to the care and welfare domain, a clean and orderly layout is more appropriate than excessive visual styling.
+
+## 9. Content Tone and Manner
+
+The copy should feel warm and reassuring, but not exaggerated. Instead of using expressions such as “best,” “perfect,” or “guaranteed,” the messaging should explain the actual service and user benefit in a specific and grounded way.
+
+Example tone:
+
+- Visiting care service that supports the daily lives of elderly people closely
+- Friendly guidance from the first consultation to service start
+- Care planning built together with the family
+
+## 10. IA Draft
+
+In addition to the main page, the following subpages are required:
+
+- About the Center
+- Service Information
+- Care Process
+- Contact / Inquiry
+- Location
+- Notices or News
+- FAQ
+
+## 11. Content Priority
+
+The first priority is consultation conversion. The second priority is service understanding. The third priority is trust building. The fourth priority is long-term content operation.
+
+This means the first release should focus on presenting the core information clearly, while notices, updates, case-based content, and FAQ can be expanded over time.
+
+## 12. Success Criteria
+
+The website will be considered successful if the following conditions are met:
+
+- Visitors understand the nature of the service from the first screen
+- Users can easily understand eligibility and the care process
+- Visitors move from the page to a phone call or inquiry action
+- The website is easy to read and use on mobile devices
+- The center leaves a trustworthy and professional impression
+
+## 13. Phase 1 Scope
+
+The first release should focus on the main page, a basic introduction page, a contact page, and a location page. News, FAQ, and case-based pages can be added later depending on operation needs.
+
+## 14. Conclusion
+
+The Star Visiting Care Center website should be designed not as a site that tries to show too much information, but as a site that helps family members understand the service easily and contact the center quickly. For this reason, the main page should use a seven-section structure, and each section should have one clear purpose only.
