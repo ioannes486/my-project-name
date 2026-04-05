@@ -62,3 +62,5 @@ sketch
 .vercel
 
 # End of https://www.toptal.com/developers/gitignore/api/react,vercel,git
+
+.vercel
