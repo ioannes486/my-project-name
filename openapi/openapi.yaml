@@ -1,0 +1,35 @@
+openapi: 3.0.3
+info:
+  title: Star Care API
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:5173
+
+paths:
+  /counsel-requests/{id}:
+    get:
+      summary: 상담 신청 단건 조회
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: 성공
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  name:
+                    type: string
+                  phone:
+                    type: string
+                  status:
+                    type: string
+                required: [id, name, phone, status]

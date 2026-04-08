@@ -1,6 +1,22 @@
+import { FC } from "react";
 import "./App.css";
 
-const services = [
+interface Service {
+  title: string;
+  description: string;
+}
+
+interface EligibilityScenario {
+  scenario: string;
+}
+
+interface ProcessStep {
+  step: string;
+  title: string;
+  detail: string;
+}
+
+const services: Service[] = [
   {
     title: "일상생활 지원",
     description:
@@ -23,14 +39,14 @@ const services = [
   },
 ];
 
-const eligibilityScenarios = [
+const eligibilityScenarios: string[] = [
   "혼자 계시는 시간이 길어 식사와 안전이 걱정되는 경우",
   "퇴원 후 일상 복귀 과정에서 집에서의 돌봄이 필요한 경우",
   "가족이 직장과 돌봄을 병행해 지속적인 지원이 어려운 경우",
   "장기요양 등급 신청을 고민 중이지만 무엇부터 해야 할지 막막한 경우",
 ];
 
-const processSteps = [
+const processSteps: ProcessStep[] = [
   {
     step: "01",
     title: "상담 접수",
@@ -58,7 +74,7 @@ const processSteps = [
   },
 ];
 
-function App() {
+const App: FC = () => {
   return (
     <div className="site-shell">
       <header className="top-nav" aria-label="메인 내비게이션">
@@ -238,7 +254,7 @@ function App() {
               상담 내용
               <textarea
                 name="message"
-                rows="3"
+                rows={3}
                 placeholder="어르신 상황과 상담 희망 내용을 간단히 남겨주세요"
               ></textarea>
             </label>
@@ -290,6 +306,6 @@ function App() {
       </footer>
     </div>
   );
-}
+};
 
 export default App;
